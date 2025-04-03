@@ -1,0 +1,42 @@
+.projects ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.4rem;
+}
+.projects li {
+    height: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+}
+.projects a img {
+    transition: transform 0.4s ease-in-out
+}
+.projects a:hover p {
+    color: var(--primary);
+    font-weight: bold;
+}
+.projects a:hover img {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px) {
+    .projects ul {
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 2rem;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .projects ul {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 1.8rem;
+    }
+    .projects li {
+        height: 250px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .projects ul {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}

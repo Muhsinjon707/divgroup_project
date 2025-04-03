@@ -1,0 +1,110 @@
+{
+  "websites": [
+    {
+      "id": 1,
+      "logo": "https://iifte.uz/logo.png",
+      "title": "Oziq-ovqat texnologiyasi va muhandisligi xalqaro instituti",
+      "subtitle": "The International Institute of Food Technology and Engineering is an institute for those who set specific goals in life",
+      "images": {
+        "primary": "https://iifte.uz/_next/static/media/slide-3.eb84a5bb.jpg",
+        "additional": {
+          "first": "https://msu.ru/upload/iblock/5e6/81ujz13fpq8hwe75nzot1k702nmzxzae/559_364_max.jpg",
+          "second": "https://immigrantinvest.com/_next/image/?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F176292%2F1536x864%2Fb0eaa59b11%2Funiversity-in-portugal-206335315.jpg&w=2048&q=65",
+          "third": "https://shkolakezminskaya-r73.gosweb.gosuslugi.ru/netcat_files/107/1232/623f249f46225865917039.jpg",
+          "fourth": "https://msu.ru/upload/iblock/6b5/iww3u8vqhvnx3qh5naxcpgfp4svmm08a/363_335_max_2_.jpg"
+        }
+      },
+      "description": "O’zbekiston Respublikasi Prezidentining 2023-yil 26-yanvardagi PQ-22 sonli qaroriga muvofiq Qishloq xo‘jaligi vazirligi ta’sischiligida hamda Ummon Sultonligining Atyab International Services kompaniyasi ishtirokida Farg’ona shahrida “Oziq-ovqat texnologiyasi va muhandisligi xalqaro instituti” tashkil etildi. Institutning asosiy vazifalaridan biri oziq-ovqat mahsulotlarini qayta ishlash sohasida kichik va o‘rta biznes uchun raqobatbardosh texnologiyalar, jarayonlar va tarmoqlarni rivojlantiradigan mukammal texnologlar, yetuk kadrlar va biznes rahbarlarini tayyorlash hisoblanadi. Institutda talabalar kunduzgi va kechki taʼlim shaklida, oʻzbek, rus va ingliz tillarida davlat granti va toʻlov-kontrakt asosida ta'lim oladilar. Bitiruvchilarga davlat namunasidagi diplom beriladi."
+    },
+    {
+      "id": 2,
+      "logo": "https://www.biointech.uz/assets/Logo-06c64ce7.png",
+      "title": "BioInTech",
+      "subtitle": "Biz sizning loyihangizni muhokama qilish",
+      "images": {
+        "primary": "https://www.biointech.uz/assets/image-59893c32.jpg",
+        "additional": {
+          "first": "https://cdn.iz.ru/sites/default/files/styles/900x506/public/news-2023-03/RIA_6504296.jpg?itok=lBOwpA6V",
+          "second": "https://cdn.iz.ru/sites/default/files/styles/900x506/public/news-2023-03/2023-03-28T205741Z_655649840_RC2530AJG7BU_RTRMADP_3_NETHERLANDS-MAMMOTH%20copy.jpg?itok=DGReP7OM",
+          "third": "https://cdn.iz.ru/sites/default/files/styles/900x506/public/news-2022-08/20140321_gaf_uv7_1552.jpg?itok=3FSpxn2U",
+          "fourth": "https://cdn.iz.ru/sites/default/files/styles/900x506/public/news-2022-06/DK101856%20%281%29%20copy.jpg?itok=7_80TdPM"
+        }
+      },
+      "description": "Saytimizda Biotexnologiya sohasiga oid yangiliklar, adabiyotlar, me’yoriy hujjatlar, video qo’llanmalar, ilmiy ishlanmalar, qiziqarli ma’lumotlar, maqolalar, xalqaro va mahalliy tajribalar o’rin olgan. Shuningdek hozirgi kunda Biotexnologiya sohasidagi eng muhim yo’nalishlaridan biri bo’lgan In Vitro haqida batafsil ma’lumot olishingiz mumkin."
+    },
+    {
+      "id": 3,
+      "logo": "https://apollon-injiniring.uz/_next/static/media/logo.e893582c.png",
+      "title": "Apollon Injiniring",
+      "subtitle": "Yangi texnologiyalarni hayotga tadbiq qilish",
+      "images": {
+        "primary": "https://apollon-injiniring.uz/media/video5.png"
+      },
+      "description": "'Apollon Injiniring' - bir necha yirik tenderlar gʻolibi boʻlib, bugungi kunda Oʻzbekistonda bugʻ qozonlari va markaziy isitish tizimlarini ishlab chiqarish boʻyicha eng yaxshi kompaniyalardan biri hisoblanadi."
+    },
+    {
+      "id": 4,
+      "logo": "https://skole.vamtam.com/wp-content/uploads/2019/11/bird.svg",
+      "title": "Modernkids",
+      "subtitle": "Bir umrlik ishonch shu erdan boshlanadi",
+      "images": {
+        "primary": "https://www.modernkids.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1400__100_474642038.f9c7e72a.jpg&w=1920&q=75",
+        "additional": {
+          "first": "https://www.modernkids.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcard1.cf39fa3f.jpg&w=640&q=75",
+          "second": "https://www.modernkids.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcard2.52216cf0.jpg&w=640&q=75",
+          "third": "https://www.modernkids.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcard3.76ff1556.jpg&w=640&q=75",
+          "fourth": "https://www.modernkids.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcard4.c55cdfbd.jpg&w=640&q=75"
+        }
+      },
+      "description": "Biz sizni Skole o'quv markazida ishlayotgan ajoyib, ishtiyoqli va sodiq o'qituvchilar bilan tanishtirishdan xursandmiz. Iltimos, “Bizning oilamiz!” bilan tanishish uchun bir oz vaqt ajrating. Biz ularning har birini nima uchun bolalar bilan ishlashni yaxshi ko'rishlarini tasvirlashga taklif qildik"
+    },
+    {
+      "id": 5,
+      "logo": "",
+      "title": "Shoximardon Ramziddin Servis",
+      "subtitle": "Suvni tozalash xizmatlari",
+      "images": {
+        "primary": "https://ramziddin-servis.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fservice2.8f456d12.jpg&w=3840&q=75",
+        "additional": {
+          "first": "https://ramziddin-servis.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fservice5.aa366001.jpg&w=3840&q=75",
+          "second": "https://ramziddin-servis.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fservice6.be69c97b.jpg&w=3840&q=75",
+          "third": "https://ramziddin-servis.uz/_next/image?url=https%3A%2F%2Fuzsuv.uz%2Fmedia%2Fwallpapar%2F2021%2F02%2FIMG_20201122_194202_1.jpg&w=828&q=75",
+          "fourth": "https://ramziddin-servis.uz/_next/image?url=https%3A%2F%2Fuzsuv.uz%2Fmedia%2Fspeech%2Fimage%2F2021%2F02%2FCC.jpg&w=828&q=75"
+        }
+      },
+      "description": "Tabiiy suv ta'minoti va tozalash echimlari. Yuqori sifatli tabiiy suv va keng qamrovli suv bilan ta'minlash uchun ishonchli va toza suv ta'minot hizmatlarini taklif qilamiz."
+    },
+    {
+      "id": 6,
+      "logo": "https://aishazza.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FScreenshot-2024-04-02-at-2.10.55_PM_2-removebg-preview.d0180567.png&w=256&q=75",
+      "title": "East Central Asian Cuisine",
+      "subtitle": "East Central Asian Cuisine",
+      "images": {
+        "primary": "https://aishazza.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FKOFTE.f029ec6b.png&w=3840&q=75",
+        "additional": {
+          "first": "https://aishazza.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FYoghurt_Eggplant.2ba2792f.png&w=3840&q=75",
+          "second": "https://aishazza.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage.d71c62f7.jpg&w=3840&q=75",
+          "third": "https://aishazza.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FChicken_Wings.6ecd8560.jpg&w=640&q=75",
+          "fourth": "https://aishazza.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FGrilled_Turkey_whole.eff797bd.jpg&w=640&q=75"
+        }
+      },
+      "description": "We don’t just serve dishes, we serve memories."
+    },
+    {
+      "id": 7,
+      "logo": "https://rio-bsia-tmtshf.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.jpg.b0611c24.png&w=256&q=75",
+      "title": "Sifatli hayot butun oila uchun g'amxo'rlik",
+      "subtitle": "Kompleks tibbiy yechimlar bir joyda",
+      "images": {
+        "primary": "https://rio-bsia-tmtshf.uz/_next/static/media/vacancy-img.afe2dea0.jpg",
+        "additional": {
+          "first": "https://rio-bsia-tmtshf.uz/_next/static/media/i.57be868c.webp",
+          "second": "https://rio-bsia-tmtshf.uz/_next/static/media/photo_2024-05-10_09-52-32.fc744282.jpg",
+          "third": "https://rio-bsia-tmtshf.uz/_next/static/media/photo_2024-05-10_09-52-50.ce6ce052.jpg",
+          "fourth": "https://rio-bsia-tmtshf.uz/_next/static/media/photo_2024-05-10_09-53-03.1e9e5a15.jpg"
+        }
+      },
+      "description": "Biz boshqa provayderlarga qaraganda innovatsion sog'liqni saqlash xizmatlaridan ko'proq foydalanish imkoniyatini taklif qilamiz. Ko'proq hayot yaxshilandi. Mana shu yerda."
+    }
+  ]
+}

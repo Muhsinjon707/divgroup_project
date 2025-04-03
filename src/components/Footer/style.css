@@ -1,0 +1,30 @@
+.footer-top {
+    justify-content: space-between;
+}
+.footer-form-section {
+    width: 100%;
+    max-width: 300px;
+}
+.footer-nav li {
+    position: relative;
+    transition: transform 0.2s ease;
+}
+.footer-nav li:not(:first-child):hover {
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width: 890px) {
+    .footer-top {
+        flex-wrap: wrap;
+    }
+    .footer-form-section {
+        margin-top: 4rem;
+        max-width: 400px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .footer-nav:not(:last-child) {
+        margin-top: 4rem;
+        width: 50%;
+    }
+}
