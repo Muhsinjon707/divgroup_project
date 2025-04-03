@@ -8,10 +8,10 @@ import { Metadata } from "next";
 
 function Hero() {
   return (
-    <section className="hero pt-[5rem] max-md:pt-[0]">
-      <div className="container flex gap-10 items-center justify-between max-md:flex-col-reverse">
+    <section className="hero bg-gray-800 pt-[5rem] max-md:pt-[0]">
+      <div className="container mx-auto flex gap-10 items-center justify-between max-md:flex-col-reverse">
         <div className="w-full max-w-[536px] max-md:text-center">
-          <h1 className="text-[7.2rem] mb-[4rem] max-sm:mb-[2rem] max-lg:text-[6rem] max-sm:text-[4rem]">
+          <h1 className="text-white text-[7.2rem] mb-[4rem] max-sm:mb-[2rem] max-lg:text-[6rem] max-sm:text-[4rem]">
             Div Group
           </h1>
           <p className="mb-[2rem] text-gray-text-color max-sm:mb-[2rem]">
@@ -29,16 +29,16 @@ function Hero() {
           </Link>
         </div>
 
-        <div className="relative w-[40%] overflow-hidden">
+        <div className="flex justify-end items-center relative w-[40%] overflow-hidden">
           <Image
-            className="object-contain w-[90%] "
+            className="object-contain w-[90%]"
             src={Logo}
             alt="logo"
             width="500"
             height="500"
           />
           <Image
-            className="object-contain w-[90%] absolute top-0 left-0"
+            className="object-contain w-[90%] absolute top-0 left-20"
             // animate-[spin_10s_linear_reverse_infinite]
             src={LogoLittle}
             alt="logo"

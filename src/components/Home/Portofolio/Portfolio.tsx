@@ -30,8 +30,9 @@ const Portfolio = () => {
   }, []);
 
   return (
-    <div className="w-full p-2 md:p-10 flex bg-gradient-to-br from-gray-800 via-gray-800 to-gray-800 justify-center">
-      <div className="container min-h-screen flex items-start justify-center gap-10 flex-wrap">
+    <section className="w-full px-2 py-20 md:p-10 flex bg-gradient-to-br from-gray-800 via-gray-800 to-gray-800 justify-center">
+      <div className="container min-h-screen flex flex-col items-start justify-center gap-10 flex-wrap">
+        <h2 className="text-7xl text-white">Our Projects</h2>
         <div className="flex flex-wrap items-start justify-center xl:justify-between gap-5 lg:gap-10 w-full">
           {data?.map((item) => {
             return (
@@ -85,7 +86,7 @@ const Portfolio = () => {
           })}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

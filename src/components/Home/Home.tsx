@@ -3,7 +3,7 @@ import "./style.css";
 import Phone from "@/src/assets/phone.gif";
 import Link from "next/link";
 import Services from "./Services/Services";
-import Hero from "./Hero/Hero";
+import Hero from "./Hero";
 import Projects from "./Projects/Projects";
 import Team from "./Team/Team";
 import { Metadata } from "next";
@@ -25,11 +25,11 @@ function Home() {
     <>
       {/* <ServiceSection /> */}
       {/* <OurServices /> */}
-        {/* <Hero /> */}
+      <Hero />
 
-        {/* <Services /> */}
+      {/* <Services /> */}
 
-        {/* <Projects /> */}
+      {/* <Projects /> */}
 
       {/* <Team/> */}
 
@@ -47,5 +47,3 @@ function Home() {
 }
 
 export default Home;
-
-
