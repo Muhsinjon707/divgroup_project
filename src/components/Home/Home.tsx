@@ -15,16 +15,19 @@ import {
   ScaleRotate,
   Parallax,
 } from "../ui/AnimationsToUse";
+
+// Conponents
 import ScrollStickySection from "./ServiceSection";
 import ServiceSection from "./ServiceSection";
 import { OurServices } from "./OurService";
 import Portfolio from "./Portofolio/Portfolio";
+import Footer from "../Footer/Footer";
 
 function Home() {
   return (
     <>
-      {/* <ServiceSection /> */}
-      {/* <OurServices /> */}
+      <ServiceSection />
+      <OurServices />
       <Hero />
 
       {/* <Services /> */}

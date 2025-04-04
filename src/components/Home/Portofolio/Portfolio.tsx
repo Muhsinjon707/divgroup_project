@@ -29,14 +29,49 @@ const Portfolio = () => {
     getWebs();
   }, []);
 
+  const container = {
+    hidden: {},
+    show: {
+      transition: {
+        staggerChildren: 0.15,
+      },
+    },
+  };
+
+  const card = {
+    hidden: { opacity: 0, y: 30 },
+    show: { opacity: 1, y: 0 },
+  };
+
   return (
-    <section className="w-full px-2 py-20 md:p-10 flex bg-gradient-to-br from-gray-800 via-gray-800 to-gray-800 justify-center">
+    <motion.section
+      initial={{ opacity: 0, scale: 0.98 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+      viewport={{ once: true }}
+      className="w-full px-2 py-20 md:p-10 flex bg-gradient-to-br from-gray-800 via-gray-800 to-gray-800 justify-center"
+    >
       <div className="container min-h-screen flex flex-col items-start justify-center gap-10 flex-wrap">
-        <h2 className="text-7xl text-white">Our Projects</h2>
-        <div className="flex flex-wrap items-start justify-center xl:justify-between gap-5 lg:gap-10 w-full">
+        <motion.h2
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          viewport={{ once: true }}
+          className="text-7xl text-white"
+        >
+          Our Projects
+        </motion.h2>
+        <motion.div
+          variants={container}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true }}
+          className="flex flex-wrap items-start justify-center xl:justify-between gap-5 lg:gap-10 w-full"
+        >
           {data?.map((item) => {
             return (
-              <div
+              <motion.div
+                variants={card}
                 key={`Website-${item.id}`}
                 className="group shrink-0 relative w-[70%] sm:w-[60%] md:w-[50%] lg:w-[40%] xl:w-[30%] h-[350px] flex flex-col items-start justify-start bg-white rounded-2xl shadow overflow-hidden"
                 style={{
@@ -56,7 +91,9 @@ const Portfolio = () => {
                     {item.title}
                   </h2>
 
-                  <button
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.98 }}
                     className="
                       opacity-0 transform translate-y-6 
                       group-hover:opacity-100 group-hover:translate-y-0
@@ -69,24 +106,30 @@ const Portfolio = () => {
                     "
                   >
                     Посмотреть проект →
-                  </button>
+                  </motion.button>
 
                   {item.logo && item.images?.primary && (
-                    <Image
-                      src={item.logo || "/no-available.jpg"}
-                      alt={item.title}
-                      width={80}
-                      height={80}
-                      className="mt-2"
-                    />
+                    <motion.div
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.3 }}
+                    >
+                      <Image
+                        src={item.logo || "/no-available.jpg"}
+                        alt={item.title}
+                        width={80}
+                        height={80}
+                        className="mt-2"
+                      />
+                    </motion.div>
                   )}
                 </div>
-              </div>
+              </motion.div>
             );
           })}
-        </div>
+        </motion.div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

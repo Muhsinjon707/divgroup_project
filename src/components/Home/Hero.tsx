@@ -29,7 +29,7 @@ function Hero() {
           </Link>
         </div>
 
-        <div className="flex justify-end items-center relative w-[40%] overflow-hidden">
+        <div className="relative w-[40%] overflow-hidden flex justify-end">
           <Image
             className="object-contain w-[90%]"
             src={Logo}
@@ -38,7 +38,7 @@ function Hero() {
             height="500"
           />
           <Image
-            className="object-contain w-[90%] absolute top-0 left-20"
+            className="object-contain w-[90%] absolute top-0 right-0"
             // animate-[spin_10s_linear_reverse_infinite]
             src={LogoLittle}
             alt="logo"

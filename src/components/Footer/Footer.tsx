@@ -6,6 +6,10 @@ import Image from "next/image";
 import axios from "axios";
 import Logo from "@/src/assets/site-logo.svg";
 
+// React icons
+import { CiLocationOn } from "react-icons/ci";
+import { FiPhoneCall } from "react-icons/fi";
+
 const Footer: React.FC = () => {
   const [phoneNumber, setPhoneNumber] = useState<string>("");
 
@@ -36,100 +40,69 @@ const Footer: React.FC = () => {
   };
 
   return (
-    <div className="footer pt-[6rem] max-md:pt-[4rem]">
-      <div className="container">
-        <div className="footer-top pb-[4rem] max-md:pb-[3rem] flex">
-          <div>
-            <Link className="header__logo mb-[1.8rem]" href="/">
+    <div className="footer bg-[#1a2331] pt-[6rem] max-md:pt-[4rem]">
+      <div className="container mx-auto">
+        <div className="footer-top pb-[4rem] max-md:pb-[3rem] flex gap-10">
+          <div className="flex flex-col items-start justify-between">
+            <Link className="header__logo flex justify-center gap-10" href="/">
               <Image src={Logo} alt="site logo" />
-              <span>DIV</span>
+              <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+                DIV GROUP
+              </span>
             </Link>
-            <p className="text-gray-text-color mb-[1.8rem]">
-              Farg'ona, O'zbekiston.
-            </p>
-            <p className="text-gray-text-color">
-              Aloqa uchun: +998 91 397 71 81
-            </p>
+            <div className="flex flex-col items-start justify-center gap-4">
+              <button className="flex items-center gap-2 px-6 py-5 bg-[#203037] text-white text-lg font-semibold rounded-lg shadow-md hover:bg-[#1E333D] transition">
+                <FiPhoneCall className="text-blue-500" />
+                <span>Aloqa uchun: +998 91 397 71 81</span>
+              </button>
+              <button className="flex items-center gap-2 px-6 py-5 bg-[#203037] text-white text-lg font-semibold rounded-lg shadow-md hover:bg-[#1E333D] transition">
+                <CiLocationOn className="text-blue-500" />
+                <span>Farg'ona, O'zbekiston.</span>
+              </button>
+            </div>
           </div>
 
-          {/* <ul className="footer-nav flex flex-col gap-[1.4rem]">
-            <li className="font-[500]">Category</li>
-            <li>
-              <Link
-                className="text-gray-text-color text-[16px] hover:text-primary"
-                href="/">
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="text-gray-text-color text-[16px] hover:text-primary"
-                href="/">
+          <div className="flex justify-between gap-20">
+            <ul className="footer-nav flex flex-col items-center gap-6">
+              <li className="px-6 py-3 bg-[#203037] text-white text-2xl font-semibold rounded-lg shadow-md hover:bg-[#1E333D] transition">
+                Category
+              </li>
+              {["Home", "About", "Services", "Reviews", "Article"].map(
+                (item, index) => (
+                  <li key={index}>
+                    <Link
+                      className="text-gray-600 text-2xl block pb-1 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full"
+                      href="/"
+                    >
+                      {item}
+                    </Link>
+                  </li>
+                )
+              )}
+            </ul>
+
+            <ul className="footer-nav flex flex-col items-center gap-6">
+              <li className="px-6 py-3 bg-[#203037] text-white text-2xl font-semibold rounded-lg shadow-md hover:bg-[#1E333D] transition">
                 About
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="text-gray-text-color text-[16px] hover:text-primary"
-                href="/">
-                Services
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="text-gray-text-color text-[16px] hover:text-primary"
-                href="/">
-                Reviews
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="text-gray-text-color text-[16px] hover:text-primary"
-                href="/">
-                Article
-              </Link>
-            </li>
-          </ul>
-          <ul className="footer-nav flex flex-col gap-[1.4rem]">
-            <li className="font-[500]">About</li>
-            <li>
-              <Link
-                className="text-gray-text-color text-[16px] hover:text-primary"
-                href="/">
-                Partners
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="text-gray-text-color text-[16px] hover:text-primary"
-                href="/">
-                Careers
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="text-gray-text-color text-[16px] hover:text-primary"
-                href="/">
-                Press
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="text-gray-text-color text-[16px] hover:text-primary"
-                href="/">
-                Community
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="text-gray-text-color text-[16px] hover:text-primary"
-                href="/">
-                Support
-              </Link>
-            </li>
-          </ul> */}
-          <div className="footer-form-section footer-nav flex flex-col gap-[1.4rem]">
-            <p className="font-[500]">Aloqa uchun</p>
+              </li>
+              {["Partners", "Careers", "Press", "Community", "Support"].map(
+                (item, index) => (
+                  <li key={index} className="relative">
+                    <Link
+                      className="text-gray-600 text-2xl block pb-1 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full"
+                      href="/"
+                    >
+                      {item}
+                    </Link>
+                  </li>
+                )
+              )}
+            </ul>
+          </div>
+          <div className="footer-form-section text-white footer-nav flex flex-col gap-[1.4rem]">
+            <p className="inline bg-[#17262D] px-4 py-3 font-semibold rounded-lg shadow-md hover:bg-[#1E333D] transition">
+              Aloqa uchun
+            </p>
             <p className="text-gray-text-color text-[16px]">
               Biz bilan bog’lanish uchun telefon raqamingizni kiriting
             </p>
@@ -143,7 +116,8 @@ const Footer: React.FC = () => {
               />
               <button
                 className="primary-btn w-full justify-center"
-                type="submit">
+                type="submit"
+              >
                 <span>Yuborish</span>
                 <span>Yuborish</span>
                 <span>Yuborish</span>
