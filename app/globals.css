@@ -99,10 +99,9 @@ ol {
 }
 
 .section-title {
-  color: var(--text-color);
   font-size: 4rem;
   line-height: normal;
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
 }
 
 .primary-btn {

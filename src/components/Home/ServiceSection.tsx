@@ -11,46 +11,31 @@ import iphone from "../../assets/apple_270781.png";
 const services = [
   {
     id: 1,
-    title: "Разработка мобильных приложений",
-    subheading: "Инновационные решения для iOS и Android",
+    title: "SMM",
     description: [
-      "Создание современных приложений",
-      "Интеграция с облачными сервисами",
-      "Поддержка и обновления",
-    ],
-    buttons: [
-      { label: "iOS", icon: "" },
-      { label: "Android", icon: "" },
+      "Auditoriyangizni kengaytiring.",
+      "Brend xabardorligini oshiring.",
+      "Faollikni va savdoni oshiring.",
     ],
     icon: mobile,
   },
   {
     id: 2,
-    title: "Web разработка",
-    subheading: "Персональные решения для вашего бизнеса",
+    title: "Web sayt",
     description: [
-      "Анализ рынка и целевой аудитории",
-      "Разработка frontend и backend",
-      "Гибкие инструменты управления",
-    ],
-    buttons: [
-      { label: "Frontend", icon: "" },
-      { label: "Backend", icon: "" },
+      "Sizning biznesingizning Internetdagi yuzi.",
+      "Tovar va xizmatlarni sotish platformasi.",
+      "Umid va Ishonchni shakllantirish vositasi.",
     ],
     icon: web,
   },
   {
     id: 3,
-    title: "Проектирование мобильного приложения",
-    subheading: "Дизайн и технические задания",
+    title: "CRM va ERP",
     description: [
-      "Создание интуитивного дизайна",
-      "Разработка технических заданий",
-      "Прототипирование и тестирование",
-    ],
-    buttons: [
-      { label: "Дизайн", icon: "" },
-      { label: "ТЗ", icon: "" },
+      "Vaqt va resurslarni tejang.",
+      "Ish samaradorligini oshirish.",
+      "Imkoniyatlarni kengaytiring.",
     ],
     icon: design,
   },
@@ -98,9 +83,9 @@ const ServiceSection = () => {
               viewport={{ once: true }}
               className="text-4xl md:text-8xl font-bold text-white mb-4"
             >
-              Наши услуги
+              Bizning xizmatlar
             </motion.h2>
-            <motion.p
+            {/* <motion.p
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 20 }}
               transition={{ duration: 0.7, delay: 0.8 }}
@@ -109,7 +94,7 @@ const ServiceSection = () => {
             >
               Разработка мобильных приложений и веб-проектов <br /> для бизнеса
               и стартапов
-            </motion.p>
+            </motion.p> */}
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {services.map((service, index) => (
@@ -137,7 +122,7 @@ const ServiceSection = () => {
                 <h3 className="text-4xl font-semibold text-white mb-10">
                   {service.title}
                 </h3>
-                <p className="text-gray-400 mb-4">{service.subheading}</p>
+                {/* <p className="text-gray-400 mb-4">{service.subheading}</p> */}
 
                 <ul className="text-gray-400 mb-6 space-y-2">
                   {service.description.map((point, i) => (
@@ -149,7 +134,7 @@ const ServiceSection = () => {
 
                 <Meteors number={22} />
 
-                <div className="flex justify-start space-x-14">
+                {/* <div className="flex justify-start space-x-14">
                   {service.buttons.map((button) => (
                     <motion.button
                       key={button.label}
@@ -161,7 +146,7 @@ const ServiceSection = () => {
                       {button.label}
                     </motion.button>
                   ))}
-                </div>
+                </div> */}
               </motion.div>
             ))}
           </div>

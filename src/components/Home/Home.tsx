@@ -26,11 +26,11 @@ import Footer from "../Footer/Footer";
 function Home() {
   return (
     <>
-      <ServiceSection />
-      <OurServices />
+      {/* Hero */}
       <Hero />
 
-      {/* <Services /> */}
+      {/* <OurServices /> */}
+      <ServiceSection />
 
       {/* <Projects /> */}
 
